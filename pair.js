@@ -81,29 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*const mainMessage = `*🤖 ROBIN - The Powerful WA BOT 🤖*
-
-🔹 *Session ID:* 👉 \`${string_session}\` 👈  
-📌 *Copy this ID and paste it into your* \`config.js\` *file to get started.*
-
-💬 *Have questions? Ask me here:*  
-🌐 [Chat on WhatsApp](https://chat.whatsapp.com/JLskLrKEjqQFX5Nwz8e4Ex?mode=r_c)
-
-👥 *Join our official WhatsApp group:*  
-🔗 https://chat.whatsapp.com/JLskLrKEjqQFX5Nwz8e4Ex?mode=r_c
-`;
-
-const warningMessage = `🛑 *IMPORTANT SECURITY NOTICE* 🛑
-
-⚠️ *Do NOT share your Session ID with anyone.*  
-It can be used to control your account without permission.
-
-Keep it safe and private. 🔒
-`;*`;
+            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
-            const dt = await nenoxPairWeb.sendMessage(user_jid, {
+            const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/Nimeshkamihiran/x-helper/blob/main/file_000000003b7861f8939f4477b2f1b9fe%20(1).png",
+                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
               },
               caption: sid,
             });
