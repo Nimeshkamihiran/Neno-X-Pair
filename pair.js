@@ -86,7 +86,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Nimeshkamihiran/x-helper/blob/main/file_000000003b7861f8939f4477b2f1b9fe%20(1).png",
+                url: "https://files.catbox.moe/n8g2o7.jpg",
               },
               caption: sid,
             });
@@ -130,3 +130,4 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
