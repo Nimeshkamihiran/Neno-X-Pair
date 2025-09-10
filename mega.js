@@ -1,7 +1,7 @@
 const mega = require("megajs");
 
 const auth = {
-  email: "nimeshmihiranga183@gmail.com",
+  email: "mihirangamihiranga223@gmail.com",
   password: "Nimesh@123",
   userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 };
@@ -113,3 +113,4 @@ const uploadWithRetry = async (data, name, maxRetries = 3) => {
 };
 
 module.exports = { upload, uploadWithRetry };
+
